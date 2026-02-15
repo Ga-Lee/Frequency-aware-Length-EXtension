@@ -1,4 +1,4 @@
-# 🚀 Train Short, Inference Long: Training-free Horizon Extension for Autoregressive Video Generation
+# ♾️ Train Short, Inference Long: Training-free Horizon Extension for Autoregressive Video Generation
 
 <p align="center">
   <a href="https://ga-lee.github.io/FLEX_demo/"><strong>🌐 Project Page</strong></a> •
