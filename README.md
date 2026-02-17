@@ -47,9 +47,12 @@ We are preparing a clean and well-documented implementation.
 If you find this work useful, please cite:
 
 ```bibtex
-@article{li2025flex,
-  title={Train Short, Inference Long: Training-free Horizon Extension for Autoregressive Video Generation},
-  author={Li, Jia and Fu, Xiaomeng and Peng, Xurui and Chen, Weifeng and Zheng, Youwei and Zhao, Tianyu and Wang, Jiexi and Chen, Fangmin and Wang, Xing and So, Hayden Kwok-Hay},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2025}
+@misc{li2026trainshortinferencelong,
+      title={Train Short, Inference Long: Training-free Horizon Extension for Autoregressive Video Generation}, 
+      author={Jia Li and Xiaomeng Fu and Xurui Peng and Weifeng Chen and Youwei Zheng and Tianyu Zhao and Jiexi Wang and Fangmin Chen and Xing Wang and Hayden Kwok-Hay So},
+      year={2026},
+      eprint={2602.14027},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2602.14027}, 
 }
