@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://ga-lee.github.io/FLEX_demo/"><strong>🌐 Project Page</strong></a> •
-  <a href="#"><strong>📄 arXiv</strong></a> 
+  <a href="https://arxiv.org/abs/2602.14027"><strong>📄 arXiv</strong></a> 
 </p>
 
 ---
