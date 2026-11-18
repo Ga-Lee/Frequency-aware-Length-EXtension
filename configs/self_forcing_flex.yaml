@@ -1,0 +1,30 @@
+# FLEX inference on the official Self Forcing DMD checkpoint (Wan2.1-T2V-1.3B).
+# Few-step schedule and timestep shift follow Self Forcing.
+# RoPE, noise correlation, attention window, and sink follow the FLEX Self Forcing setting.
+
+denoising_step_list:
+- 1000
+- 750
+- 500
+- 250
+warp_denoising_step: true
+timestep_shift: 5.0
+num_frame_per_block: 3
+independent_first_frame: false
+context_noise: 0
+num_samples: 1
+
+# RoPE modulation. S = max(1, num_output_frames / rope_train_frames) for the whole clip.
+rope_extrapolation: rope_modulation
+rope_train_frames: 21
+rope_clamp_alpha: 0.1
+rope_clamp_beta: 2.5
+
+# ANS correlation inside each 3-frame chunk. -1 is [z, -z, z].
+noise_rho: -1.0
+
+model_kwargs:
+  timestep_shift: 5.0
+  # Cache holds 3 sink frames plus a 9-frame window including the current chunk.
+  local_attn_size: 12
+  sink_size: 3

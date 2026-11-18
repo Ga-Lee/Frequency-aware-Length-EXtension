@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+wan_models/
+checkpoints/
+outputs/
+videos/
+*.mp4
+.DS_Store
+._*
+.env
+.env.*
+*.pt
+*.pth
+*.safetensors
